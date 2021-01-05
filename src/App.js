@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import {useState, useEffect} from 'react'
+import Search from './components/Search'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.scss'
+import Posts from "./components/Posts";
+import {Context} from "./Context";
+
 
 function App() {
+  const [posts, setPosts] = useState(null)
+  const [searchReq, setSearchReq] = useState('')
+  useEffect(() => {
+      fetch('http://localhost:3001/posts')
+        .then(response => response.json())
+        .then(json => setPosts(json))
+    }
+  , [])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Context.Provider
+        value={{
+          posts, setPosts,
+          searchReq, setSearchReq
+        }}
+      >
+        <Search/>
+        <Posts />
+      </Context.Provider>
     </div>
   );
 }
