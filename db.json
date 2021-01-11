@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "ipsum dolor sit",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Artem Zhuravlenko"
+    },
+    {
+      "id": 2,
+      "title": "consectetur adipiscing",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Ivan Ivanov"
+    },
+    {
+      "id": 3,
+      "title": "sed do eiusmod",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Artem Zhuravlenko"
+    },
+    {
+      "id": 4,
+      "title": "et dolore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Zubenko Mihail"
+    },
+    {
+      "id": 5,
+      "title": "sed do",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Ilya Ivanov"
+    },
+    {
+      "id": 6,
+      "title": "labore et dolore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Alexandr Olegovich"
+    },
+    {
+      "id": 7,
+      "title": "tempor ut labore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Maxim Synicin"
+    },
+    {
+      "id": 8,
+      "title": "ipsum dolor sit",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Artem Zhuravlenko"
+    },
+    {
+      "id": 9,
+      "title": "consectetur adipiscing",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Ivan Ivanov"
+    },
+    {
+      "id": 10,
+      "title": "sed do eiusmod",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Artem Zhuravlenko"
+    },
+    {
+      "id": 11,
+      "title": "et dolore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Zubenko Mihail"
+    },
+    {
+      "id": 12,
+      "title": "sed do",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Ilya Ivanov"
+    },
+    {
+      "id": 13,
+      "title": "labore et dolore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Alexandr Olegovich"
+    },
+    {
+      "id": 14,
+      "title": "tempor ut labore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Maxim Synicin"
+    },
+    {
+      "id": 15,
+      "title": "et dolore",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Zubenko Mihail"
+    },
+    {
+      "id": 16,
+      "title": "sed do",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis",
+      "author": "Ilya Ivanov"
+    }
+  ]
+}
