@@ -1,7 +1,8 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import {faSearch} from '@fortawesome/free-solid-svg-icons'
 import {Context} from '../Context'
 import {useContext} from 'react'
+import {InputGroup, FormControl, Col, Row } from "react-bootstrap";
 
 
 export default function Search() {
@@ -15,12 +16,22 @@ export default function Search() {
 
   return (
     <div className='search-container'>
-      <div className='search'>
-        <button className='search__button'>
-          <FontAwesomeIcon icon={faSearch}/>
-        </button>
-        <input className='search__input' onChange={search} type="text" placeholder='Filter by author...'/>
-      </div>
+      <Row className="justify-content-md-center">
+        <Col md={4}>
+          <InputGroup className="mb-2">
+            <InputGroup.Prepend>
+              <InputGroup.Text id="input-search"  className="bg-white">
+                <FontAwesomeIcon icon={faSearch}/>
+              </InputGroup.Text>
+            </InputGroup.Prepend>
+            <FormControl
+              onChange={search}
+              placeholder="Filter by author..."
+              aria-describedby="input-search"
+            />
+          </InputGroup>
+        </Col>
+      </Row>
     </div>
   )
 }

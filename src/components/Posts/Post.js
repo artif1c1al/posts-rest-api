@@ -1,10 +1,11 @@
+import {Card} from "react-bootstrap"
 
-export default function Post({title, author, children}) {
+export default function Post({title, author, content}) {
   return (
-    <div className="post">
-      <div className="post__title">{title}</div>
-      <div className="post__content">{children}</div>
-      <div className="post__author">{author}</div>
-    </div>
+    <Card className="p-4 mb-3">
+      <Card.Title className='text-primary'>{title}</Card.Title>
+      <Card.Text>{content}</Card.Text>
+      <Card.Text><small>{author}</small></Card.Text>
+    </Card>
   )
 }

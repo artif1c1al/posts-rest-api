@@ -15,12 +15,12 @@ export default function Posts() {
         post =>
           post.author.slice(0, searchReq.length).toLowerCase() === searchReq.toLowerCase()
       )
-    return filteredPosts.map((post, id) => <Post key={id} title={post.title} author={post.author}>{post.body}</Post>)
+    return filteredPosts.map((post, i) => <Post key={i} title={post.title} author={post.author} content={post.content}/>)
   }
 
   const breakpointColumnsObj = {
     default: 3,
-    780: 2,
+    772: 2,
     500: 1
   };
 
